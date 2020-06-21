@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 p {
@@ -155,12 +156,12 @@ footer {
 .footer__container {
     grid-column: 2/3;
     justify-self: center;
-    
+
 }
 
 .footer__container p {
     font-size: 14px;
-    color:  #999999;
+    color: #999999;
 }
 
 /* About */
@@ -209,12 +210,14 @@ footer {
     margin-top: 50px;
 }
 
-#margin-footer {
-    margin-top: 90px;
+#position__container {
+    position: relative;
 }
 
 #position {
-    position: relative;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 /* Modal */
@@ -255,7 +258,8 @@ footer {
     height: 200px;
     width: 600px;
 }
-.modal__image img  {
+
+.modal__image img {
     border-radius: 15px;
     height: 100%;
     margin-top: 15px;

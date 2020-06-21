@@ -20,6 +20,6 @@ for (let recipe of recipes) {
 const modalClose = document.querySelector(".modal__close");
 
 // Fecha o modal
-modalOverlay.addEventListener("click", () => {
+modalClose.addEventListener("click", () => {
     modalOverlay.classList.remove("active");
 })
